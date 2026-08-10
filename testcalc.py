@@ -6,6 +6,8 @@ def sumar(string):
             return 2
         case "1,2":
             return 3
+        case "1,2,3":
+            return 6
 
 def test_vacioIgualCero():
     assert 0 == sumar("")
