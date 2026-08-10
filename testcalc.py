@@ -15,3 +15,6 @@ def test_unoMasUnoIgualDos():
 
 def test_unoMasDosIgualTres():
     assert 3 == sumar("1,2")
+
+def test_tresSumandos():
+    assert 6 == sumar("1,2,3")
