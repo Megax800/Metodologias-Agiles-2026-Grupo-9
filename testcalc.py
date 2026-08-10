@@ -8,3 +8,6 @@ def test_vacioIgualCero():
 
 def test_unoMasUnoIgualDos():
     assert 2 == sumar("1,1")
+
+def test_unoMasDosIgualTres():
+    assert 3 == sumar("1,2")
