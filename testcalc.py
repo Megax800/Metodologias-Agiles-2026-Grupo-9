@@ -1,15 +1,7 @@
 def sumar(string):
-    match string:
-        case "":
-            return 0
-        case "1,1":
-            return 2
-        case "1,2":
-            return 3
-        case "1,2,3":
-            return 6
-        case "1,2,3,4,5":
-            return 15
+    if string == "":
+        return 0
+    return sum(int(n) for n in string.split(","))
 
 def test_vacioIgualCero():
     assert 0 == sumar("")
