@@ -1,7 +1,9 @@
+import re
+
 def sumar(string):
     if string == "":
         return 0
-    return sum(int(n) for n in string.split(","))
+    return sum(int(n) for n in re.split(r'[,\n]+', string))
 
 def test_vacioIgualCero():
     assert 0 == sumar("")
