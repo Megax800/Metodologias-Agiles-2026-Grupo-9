@@ -20,3 +20,6 @@ def test_unoMasDosIgualTres():
 
 def test_tresSumandos():
     assert 6 == sumar("1,2,3")
+
+def test_cincoSumandos():
+    assert 15 == sumar("1,2,3,4,5")
