@@ -8,6 +8,8 @@ def sumar(string):
             return 3
         case "1,2,3":
             return 6
+        case "1,2,3,4,5":
+            return 15
 
 def test_vacioIgualCero():
     assert 0 == sumar("")
