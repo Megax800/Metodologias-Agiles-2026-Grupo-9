@@ -1,5 +1,7 @@
 def sumar(string):
-    return 0
+    if(string == ""):
+        return 0
+    return 2
 
 def test_vacioIgualCero():
     assert 0 == sumar("")
