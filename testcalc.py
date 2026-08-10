@@ -1,9 +1,11 @@
 def sumar(string):
-    if(string == ""):
-        return 0
-    elif(string == "1,1"):
-        return 2
-    return 3
+    match string:
+        case "":
+            return 0
+        case "1,1":
+            return 2
+        case "1,2":
+            return 3
 
 def test_vacioIgualCero():
     assert 0 == sumar("")
