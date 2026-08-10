@@ -17,3 +17,6 @@ def test_tresSumandos():
 
 def test_cincoSumandos():
     assert 15 == sumar("1,2,3,4,5")
+
+def test_saltoDeLinea():
+    assert 18 == sumar("1,2,4\n5,6")
